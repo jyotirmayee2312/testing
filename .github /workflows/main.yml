@@ -1,7 +1,7 @@
 name: Run Python Script and AWS Configuration
 on:
  schedule:
-   - cron: '*/2 * * * *' # Run every 2 minutes
+   - cron: '* * * * *' # Run every 2 minutes
  workflow_dispatch: # Allow manual triggering
 
 jobs:
