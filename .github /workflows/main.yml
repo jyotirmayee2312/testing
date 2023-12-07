@@ -28,4 +28,4 @@ jobs:
          aws configure set default.region ${{ secrets.AWS_REGION }}
 
      - name: Run Python script
-       run: python your_script.py
+       run: python jyoti.py
