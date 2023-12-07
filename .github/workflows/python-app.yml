@@ -1,7 +1,7 @@
 name: Run Python Script and AWS Configuration
-on:
-  schedule:
-    - cron: '* * * * *' # Run every minute
+#on:
+  #schedule:
+    #- cron: '* * * * *' # Run every minute
 
 jobs:
   run-script:
